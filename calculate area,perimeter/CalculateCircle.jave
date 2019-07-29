@@ -1,0 +1,55 @@
+import java.io.*;
+
+class Circle
+{
+
+	int radius;
+  	float perimeter;
+	float area;
+  
+}
+
+
+class CalculateCircle
+{
+
+  	public static void main(String args[])
+	  {
+    
+		  final float pi = 3.14f;   // constant value 
+      
+		  Circle obj;              // palceholder 
+      
+		  obj = new Circle();      // create object 
+      
+		  BufferedReader in = new BufferedReader (new InputStreamReader (System.in));    // Input form user 
+	
+		  System.out.println("Enter radius");
+      
+		try
+		{
+    
+			obj.radius=Integer.parseInt(in.readLine());
+			obj.perimeter=2.0f * pi * (float)  obj.radius;       // formula circumference of circle C=2πr 
+			obj.area= pi * (float)(obj.radius * obj.radius);     // formula area of circle A=πr2 
+		
+    }
+		catch
+		(IOException ioe)
+		{
+      ioe.printStackTrace();	
+    }
+		
+		System.out.println("perimeter " + obj.perimeter);
+		System.out.println("area " + obj.area);
+    
+	}
+  
+}
+/*
+OUTPUT
+Enter radius
+2
+perimeter 12.56
+area 12.56
+*/

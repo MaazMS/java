@@ -38,7 +38,7 @@ public class websitePro extends website
 			
        website object3 = new websitePro();                                           
        object3.function(); 
-       object3.display();    // object call base class method
+       object3.display();    // object call base class method because static Methods cannot be overridden
      }
  }
   

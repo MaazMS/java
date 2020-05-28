@@ -15,3 +15,6 @@ public class ParameterConstructor {
 		System.out.println("default vale of name	" + object.name);
 	}
 }
+/*
+default vale of number	101
+default vale of name	Maaz */

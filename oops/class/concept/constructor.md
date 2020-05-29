@@ -29,4 +29,14 @@ object1.emp_name="Shaikh";
    * Note : If I have 100 object then we written 200 line to put the value for attribute. (100 * 2 = 200)    
    
 3 .   
-There for  to solve the problem for initializtion the object as sample way is constructor.   
+There for  to solve the problem for initializtion the object as sample way is constructor.     
+
+## Tyes of constructor  
+1. default constructor : It create by compiler if programmer is not create any constructor in program.Question jvm is create the default    constructor then answer is not. jvm is not a compiler there for it is not create default constructor.  
+2. default constrcutor by user : This default constructor is create by user having no argument.  
+3. parameter constructor : constructor having argument is called parameter constructor.   
+
+## why constructor not have return type   
+1. It is use to initialize the value there for it don't have return type.   
+2. compiler create default constructor then compiler is not identify what is the return is used for program.  
+There for constructor don't have return type.    

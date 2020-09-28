@@ -1,7 +1,7 @@
 # object   
     
  Definition   
- object is the blueprint of class.   
+An object is called an instance of a class.  
  object is use to manipulate the class.  
  
  ## example1    
